@@ -27,7 +27,7 @@ class TestCase extends Orchestra
     public function getEnvironmentSetUp($app)
     {
         config()->set('database.default', 'testing');
-        $migration = include __DIR__.'/../database/migrations/create_meow_points_table.php';
-        $migration->up();
+//        $migration = include __DIR__.'/../database/migrations/create_meow_points_table.php';
+//        $migration->up();
     }
 }
