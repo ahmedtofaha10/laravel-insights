@@ -24,11 +24,7 @@ This is the contents of the published config file:
 ```php
 # laravel-insights.php
 return [
-    /*
-    determine how much points equal to money amount
-    @type float
-    */
-    'amount' => 10.0,
+    
 ];
 ```
 

@@ -2,7 +2,13 @@
 
 namespace AhmedTofaha\LaravelInsights;
 
+use AhmedTofaha\LaravelInsights\Collect\Dataset;
+
 class LaravelInsights
 {
-    // Build wonderful things
+    protected $dataset;
+    public function __construct(Dataset $dataset)
+    {
+        $this->dataset = $dataset;
+    }
 }
